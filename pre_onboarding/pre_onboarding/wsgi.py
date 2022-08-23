@@ -1,5 +1,5 @@
 """
-WSGI config for wanted_pre_onboarding project.
+WSGI config for pre_onboarding project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wanted_pre_onboarding.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pre_onboarding.settings')
 
 application = get_wsgi_application()
